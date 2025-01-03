@@ -1,0 +1,24 @@
+# Ignorar todos os arquivos maiores que 100MB (recomendado usar Git LFS para arquivos grandes)
+*.iso
+*.tar
+*.zip
+*.csv
+
+# Ignorar arquivos específicos
+data/*.csv  # Ignora todos os CSVs na pasta data
+logs/*      # Ignora todos os arquivos na pasta logs
+
+# Ignorar arquivos temporários
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignorar arquivos do sistema operacional
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Ignorar arquivos de IDEs
+.vscode/
+*.pyc
+__pycache__/
